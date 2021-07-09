@@ -9,6 +9,8 @@ namespace WebAplicationTestProjectRepo
             => CreateHostBuilder(args).Build().Run();
 
 
+
+        //Try to add new commit
         public static IHostBuilder CreateHostBuilder(string[] args)
             => Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>webBuilder
