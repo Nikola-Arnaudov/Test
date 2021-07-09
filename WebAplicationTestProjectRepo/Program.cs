@@ -10,7 +10,7 @@ namespace WebAplicationTestProjectRepo
 
 
 
-        //Try to add new commit
+        //Try to add new commit second time
         public static IHostBuilder CreateHostBuilder(string[] args)
             => Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>webBuilder
